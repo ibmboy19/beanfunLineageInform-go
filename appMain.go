@@ -20,8 +20,8 @@ func main() {
 		isOpenSuccess, handle := openProcess(windowProcessThreadID)
 
 		if isOpenSuccess {
-			var address uint32 = 0x5574a6 // data address
-			var offset uint32 = 0x02      // offset
+			var address uint32 = 0x81c6b8 // data address
+			var offset uint32 = 0x08      // offset
 			fmt.Println()
 			fmt.Print("Beanfun Account/Password/Server: ")
 			// Read data
